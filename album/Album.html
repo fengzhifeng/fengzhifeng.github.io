@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Album Demo</title>
+	</head>
+	<script src=../../gua.js>	</script>
+	<!-- hover -->
+	<style>
+		.eating-image {
+			display: inline;;
+			width: 150px;
+			height: 200px;
+			opacity: 0.5;
+		}
+		.eating-show {
+			/*width: 300px;
+			height: 400px;*/
+			display: inline;
+			opacity: 1;
+		}
+	</style>
+	<!-- slide -->
+	<style >
+		.slide-image {
+			width: 150px;
+			height: 200px;
+			display: none;
+		}
+		.slide-show{
+			display: block;;
+		}
+	</style>
+	<!-- ablum -->
+	<style>
+		.picture {
+			display: block;
+			width: 150px;
+			height: 200px;
+		}
+		.Thumbnail-image {
+			display: inline-block;
+			width: 90px;
+			height: 120px;
+		}
+	</style>
+	<!-- indicators -->
+	<style>
+	.indi-red {
+		display: inline-block;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background: red;
+	}
+	.indi-white {
+		display: inline-block;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background: blue;
+	}
+	.span {
+		display: block;
+	}
+	</style>
+	<body>
+		<!-- 鼠标停留显示图片 --><span>------------------------------------------------------------------------------</span>
+		<br>
+		<span>鼠标悬浮显示</span>
+		<br>
+		<span>------------------------------------------------------------------------------</span>
+		<div class="eating">
+			<img class='eating-image'  src="images/1.jpg" alt="">
+			<img class='eating-image'  src="images/2.jpg" alt="">
+			<img class='eating-image'  src="images/3.jpg" alt="">
+			<img class='eating-image'  src="images/4.jpg" alt="">
+		</div>
+		<span>------------------------------------------------------------------------------</span>
+		<!-- 点击 按钮 到下一张 -->
+		<br>
+		<span>轮播图与指示器 自动播放</span>
+		<br>
+		<span>------------------------------------------------------------------------------</span>
+		<div class="slide" data-img=4 data-index=0>
+			<img id=id-img-0 class='slide-image slide-show'  src="images/1.jpg" alt="">
+			<img id=id-img-1 class='slide-image'  src="images/2.jpg" alt="">
+			<img id=id-img-2 class='slide-image'  src="images/3.jpg" alt="">
+			<img id=id-img-3 class='slide-image'  src="images/4.jpg" alt="">
+		</div>
+		<!-- 功能按钮 -->
+		<div class="slide-button">
+			<button id=id-button-last type="button">上一张</button>
+			<button id=id-button-next type="button">下一张</button>
+		</div>
+		</div>
+		<!-- 小圆点 -->
+		<div class='indicators' data-indi=4 data-indistart=0>
+			<div id=id-indi-0 class="indi-red indi-white"></div>
+			<div id=id-indi-1 class="indi-red"></div>
+			<div id=id-indi-2 class="indi-red"></div>
+			<div id=id-indi-3 class="indi-red"></div>
+		</div>
+		<span>------------------------------------------------------------------------------</span>
+		<!-- 标准相册 大图 + 缩略图 -->
+		<br>
+		<span>缩略图相册</span>
+		<br>
+		<span>------------------------------------------------------------------------------</span>
+			<!-- 大图 -->
+			<div class="Display">
+				<img class="picture"src="images/1.jpg" alt="">
+			</div>
+			<div class="Thumbnail">
+				<img class='Thumbnail-image' src="images/1.jpg" alt="">
+				<img class="Thumbnail-image" src="images/2.jpg" alt="">
+				<img class='Thumbnail-image' src="images/3.jpg" alt="">
+				<img class='Thumbnail-image' src="images/4.jpg" alt="">
+			</div>
+	<script src=hover.js></script>
+	<script src=slide.js></script>
+	<script src=thumbnail.js></script>
+	</body>
+</html>
