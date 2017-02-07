@@ -68,11 +68,6 @@ header {
 }
 
 /*导航*/
-.banner-logo {
-    border-radius: 50%;
-    width: 28px;
-    margin: 5px;
-}
 .nav {
     margin: 10px auto auto auto;
     background-color: white;
@@ -244,9 +239,6 @@ header {
     font-weight: bold;
 }
 /*技能*/
-.glyphicon-star {
-    content: '★'
-}
 .div-resume-skill {
     background-color: white;
     padding: 20px;
