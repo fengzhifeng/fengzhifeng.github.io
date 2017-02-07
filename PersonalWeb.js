@@ -30,7 +30,7 @@ var bindEventNav = function() {
                         </p>
                     </div>
                     <div class="div-show-img">
-                        <img class="img-home-show" src="http://i.imgur.com/3qY0egQ.png" alt="轮播图" />
+                        <img class="img-home-show" src="album/images/logo.png" alt="轮播图" />
                         <p>
                             轮播图
                         </p>
@@ -206,7 +206,7 @@ var bindEventNav = function() {
                         </div>
                         <div class="project project-slideShow">
                             <span class="project-title">轮播图</span>
-                            <img class="project-img" src="http://i.imgur.com/3qY0egQ.png" alt="轮播图" />
+                            <img class="project-img" src="album/images/logo.png" alt="轮播图" />
                             <p>
                                 带缩略图的轮播图，可自定义图片组插入页面任意指定位置
                             </p>
@@ -1185,10 +1185,10 @@ var bindEventNav = function() {
             $('.btn-todoList').addClass('active')
             position.empty()
             var images = [
-                'http://img.hb.aicdn.com/c04068ab0b9098f381fc42cb65cb34c8907d32e313330-8Ql2rF_fw658',
-                'http://img.hb.aicdn.com/06d53b3aab780c38648b26f0a0941c85ce15bf44bea8d-NBtbp0_fw658',
-                'http://img.hb.aicdn.com/55537e70e4381a5ad1ae55cdaf300001b625a415d1f5-DNVAu8_fw658',
-                'http://img.hb.aicdn.com/55562078a2b43afee9defb6852fe9e257b2081bea06a-hwdR8l_fw658',
+                'album.images/1.jpg',
+                'album.images/2.jpg',
+                'album.images/3.jpg',
+                'album.images/4.jpg',
             ]
             var SlideShow = function(images, position) {
                 // 切换图片
