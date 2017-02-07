@@ -225,7 +225,7 @@ var bindEventNav = function() {
 
                     </div>
                 </div>
-                `
+                ` 
             return p
         }
         $('.btn-project').on('click', function(event) {

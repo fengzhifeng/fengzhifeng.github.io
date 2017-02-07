@@ -13,7 +13,7 @@ var checkName = function() {
     if (len < 2 || len > 10) {
         return false
     }
-
+ 
     for (var i = 0; i < name.length; i++) {
         var char = name[i]
         // 检查是否包含非要求字符
