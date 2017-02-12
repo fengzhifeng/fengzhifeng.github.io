@@ -54,7 +54,7 @@ var bindEventNav = function() {
             position.append(home())
         })
     }
-    // resume
+    // resume 
     var bindEventResume = function() {
         var resume = function() {
             var t = `
