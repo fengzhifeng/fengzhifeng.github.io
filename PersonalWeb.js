@@ -131,10 +131,6 @@ var bindEventNav = function() {
                         <span class="span-skill-title">库/框架</span>
                         <p class="p-skill-detail"><span class="glyphicon glyphicon-star"></span>
                             熟练运用 <span class='span-skill-hl'>jQuery</span> 进行定制与扩展
-                        </p>
-                        <p class="p-skill-detail"><span class="glyphicon glyphicon-star"></span>
-                            熟悉 <span class='span-skill-hl'>BootStrap/Pure</span> 等常见库的运用
-                        </p>
                         <p class="p-skill-detail"><span class="glyphicon glyphicon-star"></span>
                             对 <span class='span-skill-hl'>Node.js</span> 等常见技术有一定了解
                         </p>
@@ -225,7 +221,7 @@ var bindEventNav = function() {
 
                     </div>
                 </div>
-                ` 
+                `
             return p
         }
         $('.btn-project').on('click', function(event) {
