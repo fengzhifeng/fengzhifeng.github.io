@@ -5,6 +5,7 @@
 }
 body {
     background-color: lightgray;
+    margin-top: 30px;
 }
 .container {
     /*background-color: white;*/
@@ -196,6 +197,15 @@ header {
 
 /*简历*/
 /*个人信息*/
+/*背景色*/
+.black {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 600px;
+    height: 110px;
+    z-index: -1;
+}
 .div-resume {
     padding: 0;
     border-radius: 5px;
@@ -205,7 +215,8 @@ header {
     text-align: left;
     padding: 15px;
     color: white;
-    background-color: black;
+    /*background-color:black;*/
+    background-image: url(images/background-balck.png)
 }
 .div-resume ul {
     display: inline-block;
@@ -237,6 +248,24 @@ header {
     display: block;
     font-size: 110%;
     font-weight: bold;
+}
+/*教育*/
+.education {
+    margin-left: -1px;
+    width: 25px;
+    display: inline-block;
+    left: 5%;
+    vertical-align: middle;
+}
+.education + span {
+    position: relative;
+    padding-left: 3px;
+    top: 3px;
+}
+.p-education-detail {
+    font-size: 120%;
+    margin-left: 10px;
+    margin: 2px 2px 0 10px;
 }
 /*技能*/
 .div-resume-skill {
@@ -271,8 +300,15 @@ header {
     font-size: 110%;
     font-weight: bold;
 }
-
-
+.letter-spacing {
+    letter-spacing: 1px;
+}
+.work {
+    margin-left: 1%;
+}
+.education-work {
+    margin: 10px 0px 0px 0px;
+}
 /*边栏*/
 .div-aside {
     margin: 10px auto;

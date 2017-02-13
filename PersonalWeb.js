@@ -54,7 +54,7 @@ var bindEventNav = function() {
             position.append(home())
         })
     }
-    // resume 
+    // resume
     var bindEventResume = function() {
         var resume = function() {
             var t = `
@@ -82,6 +82,9 @@ var bindEventNav = function() {
                     </div>
                 </div>
                 <!-- 个人技能 -->
+                <div class='div-education'>
+                    <p>福建林业职业技术学院</p>
+                <div>
                 <div class="div-resume-skill">
                     <p class="p-resume-skill">
                         <span class="glyphicon glyphicon-wrench"></span>
@@ -114,7 +117,7 @@ var bindEventNav = function() {
                         </p>
                         <p class="p-skill-detail">
                             <span class="glyphicon glyphicon-star"></span>
-                            能够使用原生 <span class="span-skill-hl">JavaScript</span> 实现 <span class="span-skill-hl">jQuer</span> 大部分常用功能
+                            能够使用原生 <span class="span-skill-hl">JavaScript</span> 实现 <span class="span-skill-hl">jQuery</span> 大部分常用功能
                     </p>
                     </p>
 
